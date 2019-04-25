@@ -17,7 +17,7 @@ class Post
   
   def author_name 
     binding.pry 
-    if self.author.name == nil
+    if self.author.name.empty?
       nil
     else
       self.author.name
